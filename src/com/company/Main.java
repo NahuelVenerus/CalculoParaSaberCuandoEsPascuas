@@ -26,12 +26,6 @@ public class Main {
         int d = (((a*19)+24)%30);
         int e = ((((b * 2) + (c * 4) + (d * 6)) + 5) % 7);
         int fechaDePascua = d + e + 22;
-        System.out.println("A: " + a);
-        System.out.println("B: " + b);
-        System.out.println("C: " + c);
-        System.out.println("D: " + d);
-        System.out.println("E: " + e);
-        System.out.println(fechaDePascua);
         if (fechaDePascua < 31) {
             System.out.println("Fecha de Pascua: " + fechaDePascua + " de Marzo");
         } else {
